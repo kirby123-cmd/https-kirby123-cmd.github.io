@@ -154,7 +154,7 @@
       <div id="search-layer" class="header-search--layer hidden">
         <p class="title">
           <span>Here's what to search for:</span>
-          <span id="close-layer-btn">关闭</span>
+          <span id="close-layer-btn">closure</span>
         </p>
         <ul>
         </ul>
@@ -195,7 +195,7 @@
   const ipt = document.querySelector('#search-input')
   const btn = document.querySelector('#search-btn')
   const layer = document.querySelector('#search-layer')
-  const posts = JSON.parse(`[{"title":"Hello World","path":"2023/01/22/hello-world/"}]`)
+  const posts = JSON.parse(`[{"title":"Hello World","path":"2023/01/22/hello-world/"},{"title":"Image crawling using Bing-image-Downloader","path":"2023/01/22/Image-crawling-using-Bing-image-Downloader/"}]`)
   ipt.addEventListener('keyup', e => {
     if (e.key === 'Enter') {
       handleSearch()
@@ -329,7 +329,7 @@
       </h5>
       <p class="main-left--subtitle">
         <span>Number of articles:</span>
-        <span>1 articles</span>
+        <span>2 articles</span>
       </p>
       <p class="main-left--subtitle">
         <span>Recent news:</span>
@@ -373,6 +373,21 @@ pre:active {
 }
 </style>
 <div class="log">
+  
+    <div class="log-item">
+      <h2 class="log-title">
+        <span>2023-01-22 21:16:06</span>
+        <span>星期天</span>
+      </h2>
+      <h1 class="log-main-title"><a href="/log/yay.html"></a></h1>
+      <div class="log-wrapper false" style="max-height: 1000px;">
+        <article class="article-content"><p>created this beautiful website !</p>
+<p>friend and brother  away ,no mood to study !</p>
+<p>I am in a great mood</p>
+</article>
+        
+      </div>
+    </div>
   
 </div>
 
